@@ -1,0 +1,11 @@
+Algoritmo 	bisiesto
+	Definir num Como Entero
+	Escribir "Ingrese un año para determinar si es bisiesto: "
+	leer num
+	Si (num mod 4 == 0 Y num mod 100 <> 0) O (num mod 100 == 0 Y num mod 400 == 0)  Entonces
+		Escribir "Es un año bisiesto ", num
+	SiNo
+			Escribir "No es un año bisiesto ", num
+	Fin Si
+FinAlgoritmo
+

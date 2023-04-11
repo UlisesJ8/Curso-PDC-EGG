@@ -1,0 +1,20 @@
+Algoritmo sin_titulo
+	Definir num, suma Como Entero
+	Escribir "Ingrese un numero"
+	Leer num
+	suma = identificador(num)
+	Escribir suma
+FinAlgoritmo
+
+
+Funcion Sumadivisores <- identificador ( num Por Referencia)
+	Definir i, sumdiv, Sumadivisores como entero
+	sumdiv = 0
+	Para i = 1 Hasta num-1  Hacer
+		Si num mod i == 0  Entonces
+			sumdiv = i + sumdiv
+		Fin Si
+	Fin Para
+	Sumadivisores = sumdiv
+	
+Fin Funcion

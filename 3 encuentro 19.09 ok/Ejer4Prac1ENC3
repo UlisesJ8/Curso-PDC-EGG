@@ -1,0 +1,12 @@
+Algoritmo diasHorasMinutosSegundos
+	Definir dia Como Real
+	Escribir " Ingrese una cantidad de dias: "
+	leer dia
+	Definir horas Como Real
+	definir minutos Como Real
+	definir segundos Como Real
+	horas = dia * 24
+	minutos = horas * 60
+	segundos = minutos * 60
+	Escribir"La cantidad de dias ingresados es: ", dia, " equivalente a: ", horas, " horas, ", minutos, " minutos, ", segundos, " segundos." 
+FinAlgoritmo 

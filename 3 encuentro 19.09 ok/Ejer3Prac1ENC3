@@ -1,0 +1,9 @@
+Algoritmo sin_titulo
+	Definir radio, altura Como Real
+	Escribir "Ingrese el radio y la altura de un cilindro para calcular su volumen: "
+	Leer radio
+	Leer altura
+	Definir volumen Como Real
+	volumen = pi * radio^2 * altura
+	Escribir " El volumen del cilindro es de ", volumen
+FinAlgoritmo

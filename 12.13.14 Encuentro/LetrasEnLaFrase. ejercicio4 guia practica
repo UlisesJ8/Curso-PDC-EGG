@@ -1,0 +1,25 @@
+Algoritmo LetrasEnLaFrase
+	Definir frase, carac como cadena
+	Definir cantidadDeCaracter Como Real
+	Escribir"Ingrese una frase que desee analizar"
+	Leer frase
+	Escribir"Ingrese el caracter que desee contar de la cadena"
+	Leer carac
+	cantidadDeCaracter = identificador(carac, frase)
+	Escribir "La cantidad de veces que se encuentra el/la ", carac, " en la frase es: " cantidadDeCaracter 
+FinAlgoritmo
+
+
+Funcion analisis = identificador(carac Por Referencia,frase Por Referencia)
+	Definir analisis, long, contador, i Como Real
+	Definir primerLetra, ultimaLetra Como Cadena
+	long = Longitud(frase)
+	contador = 0
+	Para i = 0 Hasta long Hacer
+		primerLetra = subcadena(frase,i,i)
+		Si carac == primerLetra Entonces
+			contador = contador+1
+		Fin Si
+		analisis = contador
+	Fin Para
+Fin Funcion

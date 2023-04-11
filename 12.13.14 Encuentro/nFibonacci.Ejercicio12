@@ -1,0 +1,22 @@
+Algoritmo nFibonacci
+	Definir num, nuevo Como Real
+	Escribir "Ingrese hasta que numero desea que se realiza la sucecision de Fibonacci "
+	Leer num
+	nuevo = identificador(num)
+FinAlgoritmo
+Funcion retorno <- identificador(num Por Referencia)
+	Definir retorno, i, a, b, c, cont Como Real
+	a = 0
+	b = 1
+	cont = 0
+	Para cont = 1 Hasta num  Hacer
+		
+		c = a + b
+		a = b
+		b = c
+		cont = c
+		Escribir sin saltar c, ","
+	Fin Para
+	Escribir""
+Fin Funcion
+

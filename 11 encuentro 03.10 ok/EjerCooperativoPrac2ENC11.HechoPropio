@@ -1,0 +1,62 @@
+Algoritmo Encuentro11ejerciciocooperativo
+	Definir saldo, i, nBotellas, contador, aleatorios, op, recibir, suma Como Real
+	Definir usuario, contrasena Como Cadena
+	saldo  = 0
+	Repetir
+		Escribir "Ingrese su usuario"
+		Leer usuario
+	Mientras Que usuario <> "Albus_D"
+	Contador = 0
+	Repetir
+		Escribir "Ingrese su contrasena"
+		Leer contrasena
+		contador = contador + 1
+	Mientras Que contador < 3 Y contrasena <> "caramelosdeLimon"
+	Si contador = 3 Entonces
+		Escribir "Usted ha alcanzado el numero maximo de intentos. Llame a su operador"
+	SiNo
+		Repetir
+		Escribir "Menu:"
+		Escribir "1: Ingresar botellas"
+		Escribir "2: Consultar Saldo"
+		Escribir "3: Salir"
+		Leer op
+			Segun op Hacer
+				1:
+					Escribir "Ingrese la cantidad de botellas:"
+					Leer nBotellas
+					suma = 0
+					Para i = 1 Hasta nBotellas Con Paso 1 Hacer
+						aleatorios = aleatorio(100, 3000)
+						Si aleatorios <= 500 Entonces
+							suma = suma + 50
+						SiNo
+							Si aleatorios >= 501 Y aleatorios <= 1500  Entonces
+							suma = suma + 125
+							SiNo
+							suma = suma + 200
+							Fin Si
+						Fin Si
+					Fin Para
+					saldo = suma + saldo
+					Escribir "El saldo que le corresponde es ", saldo
+					Escribir "Desea recibirlo?"
+					Escribir "1: SI"
+					Escribir "2: NO"
+					Leer recibir
+					Si recibir = 1 Entonces
+						Escribir "Se acredito su saldo. Su saldo actual es de ", saldo
+					SiNo
+						Escribir"Devolviendo material"
+						saldo = saldo - suma
+					Fin Si
+				2:
+			        Escribir"Su saldo actual es de ", saldo
+				3:
+					Escribir"Usted ha decidido salir del programa. Hasta Luego"
+				De Otro Modo:
+					Escribir"Opcion incorrecta. Reingrese una opcion correcta"
+			Fin Segun
+		Mientras que op <> 3
+Fin Si
+FinAlgoritmo

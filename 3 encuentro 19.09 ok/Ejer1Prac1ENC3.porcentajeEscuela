@@ -1,0 +1,15 @@
+Algoritmo porcentajeEscuela
+	Definir ninas Como Entero
+	Definir ninos Como entero
+	definir total Como Real
+	Escribir "Ingrese la cantidad de ninos en la escuela: "
+	leer ninos
+	Escribir "Ingrese la cantidad de ninas en la escuela: "
+	leer ninas
+	total = ninos + ninas
+	Definir porcentajeninos Como Real
+	Definir porcentajeninas Como Real
+	porcentajeninos = ninos * 100 / total
+	porcentajeninas = ninas * 100 / total
+	Escribir "el porcentaje de ninos es de: ", porcentajeninos, " y el porcentaje de ninas es de: ", porcentajeninas 
+FinAlgoritmo

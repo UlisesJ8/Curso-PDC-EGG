@@ -1,0 +1,10 @@
+Algoritmo Par
+	Definir num Como Real
+	Leer num
+	Escribir "El resultado es: ", paridad(num)
+FinAlgoritmo
+
+Funcion retorno =  Paridad(num Por Referencia)
+	Definir retorno como logico
+    Retorno =  num MOD 2 == 0
+Fin Funcion

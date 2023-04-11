@@ -1,0 +1,26 @@
+Algoritmo calculadoraGuiaPractica
+	Definir num1, num2, suma, resta, division, multiplicacion Como Real
+	Definir operacion Como caracter
+	Escribir"Ingrese un numero: "
+	Leer num1
+	Escribir"Ingrese otro numero: "
+	Leer num2
+	Escribir "Ingrese el primer caracter de la operacion que desea realizar entre ambos numeros(Suma = S o s, Resta = R o r, Division = D o d, Multiplicacion = M o m)"
+	Leer operacion
+	Segun operacion Hacer
+		"S" O "s":
+			suma = num1 + num2
+			Escribir "La suma de ambos numeros es de: ", suma
+		"R" o "r":
+			resta = num1 - num2
+			Escribir "La resta de ambos numeros es de: ", resta
+		"D" o "d":
+			division = num1 / num2
+			Escribir "La division de ambos numeros es de: ", division
+		"M" o "m":
+			multiplicacion = num1 * num2
+			Escribir "La multiplicacion de ambos numeros es de: ", multiplicacion
+		De Otro Modo:
+			Escribir"No ingreso una opcion correcta"
+	Fin Segun
+FinAlgoritmo

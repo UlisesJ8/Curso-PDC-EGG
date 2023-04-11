@@ -1,0 +1,13 @@
+Algoritmo sin_titulo
+	Definir letra como cadena
+	Imprimir "ingrese una letra"
+	leer letra
+	rangomyt(letra)
+FinAlgoritmo
+SubProceso rangomyt(letra)
+	si Minusculas(letra) >='m' y Minusculas(letra) <= 't' Entonces
+		Imprimir "la letra (",letra,") esta entre las letras (m y t)"
+	sino
+		Imprimir "la letra (",letra,") NO esta entre las letras (m y t)"
+	FinSi
+FinSubProceso

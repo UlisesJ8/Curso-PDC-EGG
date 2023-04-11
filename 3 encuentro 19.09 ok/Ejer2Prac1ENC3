@@ -1,0 +1,12 @@
+Algoritmo baseAlturaRectangulo
+	Definir Base Como Real
+	Definir Altura Como Real
+	Escribir " Ingrese la Base y la Altura de un rectangulo para saber su area y perimetro: "
+	Leer Base
+	Leer Altura
+	Definir area Como Real
+	Definir perimetro Como Real
+	area = Base * Altura
+	perimetro = 2 * Altura + 2 * Base
+	Escribir"El area es igual a: ", area, " y el perimetro es igual a: ", perimetro
+FinAlgoritmo

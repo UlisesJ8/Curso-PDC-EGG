@@ -1,0 +1,10 @@
+Algoritmo precioProducto
+	Definir precioPrincipio Como Real
+	Definir precioFinal Como Real
+	Escribir "Escriba el precio de un producto a principio de año y luego al finalizar el año:"
+	leer precioPrincipio
+	leer precioFinal
+	Definir porcentajeProducto Como Real
+	porcentajeProducto = (PrecioFinal - PrecioPrincipio) / precioPrincipio * 100
+	Escribir "El porcentaje de aumento que tuvo el producto al finalizar el año es: ", porcentajeProducto
+FinAlgoritmo

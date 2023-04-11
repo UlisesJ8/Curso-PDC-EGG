@@ -1,0 +1,9 @@
+Algoritmo EjercicioCooperacion
+	unir("Cooperando ", "trabajamos mejor")
+FinAlgoritmo
+
+
+Funcion unir(var1 , var2 )
+	Escribir var1, var2
+FinFuncion
+	

@@ -1,0 +1,12 @@
+Algoritmo dificultadBaja
+	Definir radio Como Real
+	Escribir "Ingrese el valor del radio del radio de una circunferencia: "
+	leer radio
+	Definir area Como Real
+	Definir perimetro Como Real
+	area = (PI * radio^2)
+	perimetro = (2 * PI *radio)
+	Escribir "El area del radio es: ", area
+	Escribir "El perimetro del radio es: ", perimetro
+	
+FinAlgoritmo

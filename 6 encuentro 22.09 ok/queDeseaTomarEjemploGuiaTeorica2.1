@@ -1,0 +1,22 @@
+Algoritmo queDeseaTomarEjemploGuia
+	Definir tomar, cafe, leche Como Caracter
+	Escribir "Usted desea tomar te o cafe?"
+	Leer tomar
+	Si tomar = "te" Entonces
+		Escribir "Usted solicito tomar te"
+	SiNo
+		Escribir "usted selecciono cafe, Ingrese de que tipo(solo o cortado):"
+		Leer Cafe
+		Si cafe = "solo" Entonces
+			Escribir"Usted solicito tomar cafe solo"
+		SiNo
+			Escribir "Usted solicito tomar cortado. Lo desea con leche vegetal?(responder si o no)"
+			Leer leche
+			Si leche = "si" Entonces
+				Escribir "Usted solicito tomar un cortado con leche vegetal"
+			SiNo
+				Escribir "Usted solicito tomar un cortado sin leche vegetal"
+			Fin Si
+		Fin Si
+	Fin Si
+FinAlgoritmo
